@@ -24,18 +24,3 @@ class Solution:
             cur_node.next = list1 if list1 else list2
 
         return zero_elem.next
-
-
-ln3 = ListNode(val=4)
-ln2 = ListNode(val=2, next=ln3)
-ln1 = ListNode(val=1, next=ln2)
-
-ln32 = ListNode(val=4)
-ln22 = ListNode(val=3, next=ln32)
-ln12 = ListNode(val=1, next=ln22)
-
-r = Solution().mergeTwoLists(ln1, ln12)
-cur_node = r
-while cur_node is not None:
-    print(cur_node.val)
-    cur_node = cur_node.next
