@@ -1,0 +1,1 @@
+ALTER TABLE applicant_order ADD COLUMN str_id INTEGER FIRST;
