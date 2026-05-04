@@ -1,3 +1,8 @@
+"""
+https://coderun.yandex.ru/selections/yandex-interview/problems/rocks-and-jewels
+"""
+
+
 def main():
     j, s = input(), input()
     j_chars = set(j)

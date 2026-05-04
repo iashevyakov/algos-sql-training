@@ -1,7 +1,11 @@
+"""
+https://coderun.yandex.ru/selections/yandex-interview/problems/anagrams
+"""
+
 from collections import defaultdict
 
 
-def main():
+def main() -> int:
     s1, s2 = input(), input()
     if len(s1) != len(s2):
         return 0
@@ -13,7 +17,6 @@ def main():
             return 0
         s1_counter[ch2] -= 1
     return 1
-
 
 
 if __name__ == '__main__':
