@@ -1,3 +1,7 @@
+"""
+https://coderun.yandex.ru/selections/hr-tech-interview/problems/largest-product-two-numbers
+"""
+
 def main():
     _ = input()
     nums = map(int, input().split())

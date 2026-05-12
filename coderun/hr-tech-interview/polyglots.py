@@ -1,3 +1,7 @@
+"""
+https://coderun.yandex.ru/selections/hr-tech-interview/problems/polyglots
+"""
+
 from collections import defaultdict
 
 def main():
